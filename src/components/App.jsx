@@ -10,6 +10,8 @@ function App() {
     return (
         <div>
             <FilterForm setCurrencyCode={setCurrencyCode} setCount={setCount} count={count}/>
+            <h3>enter the currency you need: euro, usd, czk, gbp, nok ...
+            (wprowadź walutę, której potrzebujesz)</h3>
             <Results currencyCode={currencyCode} count={count}/>
         </div>
     );
